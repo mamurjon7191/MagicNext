@@ -1,0 +1,33 @@
+.sidebar {
+  padding: 10rem;
+  &__main {
+    &--1 {
+      background-color: #f9f7f6;
+      img {
+        width: 100%;
+      }
+      &--info {
+        padding: 2rem;
+        padding-top: 4rem;
+        color: rgba(0, 0, 0, 0.637);
+        font-size: 1.6rem;
+      }
+      &--btn {
+        button {
+          width: 100% !important;
+          position: relative;
+          &::before {
+            content: "Cozy Country House";
+            width: 80%;
+            height: 80%;
+            position: absolute;
+            background-color: black;
+            top: -490%;
+            left: 10%;
+            padding-top: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}

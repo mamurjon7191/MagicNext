@@ -1,0 +1,90 @@
+.big {
+  &__left {
+    height: 94.3%;
+    background-color: #bf9b6b;
+    text-align: center;
+    ion-icon {
+      color: white;
+      font-size: 6rem;
+    }
+  }
+  &__right {
+    &--top {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      &--left {
+        background-image: linear-gradient(to left, #131d2be0, #131d2be1),
+          url(../img/house-1.jpeg);
+        padding: 4rem;
+        height: 85%;
+        background-size: cover;
+        background-position: center;
+        &--logo {
+          text-align: center;
+          img {
+            width: 20%;
+            margin-bottom: 5rem;
+          }
+        }
+        &--stick {
+          margin-top: 4rem;
+          color: $color-grey-light-2;
+          p {
+            font-size: 1.4rem;
+          }
+          div {
+            width: 100%;
+            height: 2px;
+            background-color: #aaa;
+          }
+        }
+        &--img {
+          img {
+            width: 50%;
+            opacity: 0.5;
+          }
+          &--1 {
+            width: 80% !important;
+          }
+        }
+        h2 {
+          color: $color-primary-dark;
+          font-weight: 440;
+        }
+        h1 {
+          color: white;
+          font-size: 3rem;
+          letter-spacing: 0.3rem;
+        }
+      }
+      &--right {
+        background-color: #131d2b;
+        height: 91.5%;
+        padding-top: 5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        &--title {
+          color: $color-primary-dark;
+          text-align: center;
+          margin-bottom: 3rem;
+        }
+        &--1 {
+          &--info {
+            margin-top: 2rem;
+            h1 {
+              color: white;
+            }
+            p {
+              color: rgba(238, 238, 238, 0.74);
+            }
+          }
+          img {
+            width: 100%;
+            margin-top: 2rem;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}

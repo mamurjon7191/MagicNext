@@ -1,0 +1,13 @@
+.story {
+  background-color: white;
+  padding: 15rem;
+  &__main--1 {
+    h1 {
+      font-size: 1.6rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.7;
+    }
+  }
+}
